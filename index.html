@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio Adam Yaksyaputra Hadian — Fresh Graduate Software Engineer dengan keahlian di HTML, CSS, JavaScript, React, Go, dan Laravel." />
+  <title>Adam Yaksyaputra — Software Engineer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ============================================================
+       NAVIGATION — Fixed top bar untuk navigasi antar section
+  ============================================================ -->
+  <header>
+    <nav aria-label="Navigasi utama">
+      <a href="#hero" class="nav-logo">Adam.</a>
+      <ul role="list">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ============================================================
+         HERO — Intro utama, tagline, dan CTA pertama yang dilihat recruiter
+    ============================================================ -->
+    <section id="hero" aria-labelledby="hero-heading">
+      <p class="hero-label">Hi, my name is</p>
+      <h1 id="hero-heading">Adam Yaksyaputra.</h1>
+      <h2>I build things for the web.</h2>
+      <p>
+        Fresh graduate Software Engineer dengan passion di full-stack development.
+        Fokus membangun produk digital yang bersih, cepat, dan berdampak.
+      </p>
+      <a href="#projects" class="btn-primary">Lihat Projects</a>
+      <a href="#contact" class="btn-secondary">Hubungi Saya</a>
+    </section>
+
+    <!-- ============================================================
+         ABOUT — Latar belakang, kepribadian, dan nilai sebagai developer
+    ============================================================ -->
+    <section id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About Me</h2>
+      <article>
+        <div class="about-text">
+          <p>
+            Saya Adam, fresh graduate dari jurusan Teknik Informatika. Saya tertarik
+            pada pembuatan web dari sisi front-end maupun back-end. Saya percaya
+            bahwa kode yang baik bukan hanya yang berjalan, tapi yang mudah dibaca
+            dan dipelihara.
+          </p>
+          <p>
+            Di luar coding, saya aktif mengikuti hackathon dan belajar hal baru
+            secara mandiri. Saya siap bergabung dan berkontribusi nyata di tim Anda.
+          </p>
+        </div>
+        <figure>
+          <img src="assets/IMG_5601.jpg" alt="Foto profil Adam Yaksyaputra" width="300" height="300" />
+        </figure>
+      </article>
+    </section>
+
+    <!-- ============================================================
+         SKILLS — Tech stack yang dikuasai, dikelompokkan berdasarkan kategori
+    ============================================================ -->
+    <section id="skills" aria-labelledby="skills-heading">
+      <h2 id="skills-heading">Skills</h2>
+
+      <div class="skills-grid">
+        <article aria-label="Front-End Skills">
+          <h3>Front-End</h3>
+          <ul role="list">
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Tailwind CSS</li>
+            <li>Bootstrap</li>
+          </ul>
+        </article>
+
+        <article aria-label="Back-End Skills">
+          <h3>Back-End</h3>
+          <ul role="list">
+            <li>Go (Golang)</li>
+            <li>PHP</li>
+            <li>Laravel</li>
+          </ul>
+        </article>
+
+        <article aria-label="Tools & Others">
+          <h3>Tools</h3>
+          <ul role="list">
+            <li>Git & GitHub</li>
+            <li>VS Code</li>
+            <li>Figma</li>
+            <li>Postman</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         PROJECTS — Showcase project dengan context, masalah, dan dampak nyata
+    ============================================================ -->
+    <section id="projects" aria-labelledby="projects-heading">
+      <h2 id="projects-heading">Projects</h2>
+
+      <div class="projects-grid">
+      <!-- Project Card 1 -->
+      <article class="project-card" aria-label="Project: E-Commerce API & Dashboard">
+        <header>
+          <h3>E-Commerce API & Dashboard</h3>
+          <p class="project-stack">React · Go · PostgreSQL</p>
+        </header>
+        <p>
+          Membangun RESTful API dengan Go untuk platform e-commerce dan dashboard admin interaktif menggunakan React. Berhasil mengurangi response time API sebesar 30% dan memudahkan manajemen produk.
+        </p>
+        <footer>
+          <a href="https://github.com/adamyaksya" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="#" target="_blank" rel="noopener noreferrer">Live Demo</a>
+        </footer>
+      </article>
+
+      <!-- Project Card 2 -->
+      <article class="project-card" aria-label="Project: HR Management System">
+        <header>
+          <h3>HR Management System</h3>
+          <p class="project-stack">Laravel · MySQL · Bootstrap</p>
+        </header>
+        <p>
+          Aplikasi manajemen sumber daya manusia untuk melacak kehadiran, cuti, dan penggajian. Menggunakan Laravel Eloquent untuk optimasi query database, mengurangi redundansi data.
+        </p>
+        <footer>
+          <a href="https://github.com/adamyaksya" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="#" target="_blank" rel="noopener noreferrer">Live Demo</a>
+        </footer>
+      </article>
+
+      <!-- Project Card 3 -->
+      <article class="project-card" aria-label="Project: Interactive Portfolio">
+        <header>
+          <h3>Interactive Portfolio</h3>
+          <p class="project-stack">HTML · CSS · JavaScript</p>
+        </header>
+        <p>
+          Portfolio web interaktif dengan desain mobile-first, dark mode, dan animasi scroll reveal tanpa menggunakan library eksternal, menunjukkan pemahaman mendalam tentang Web API.
+        </p>
+        <footer>
+          <a href="https://github.com/adamyaksya" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="#" target="_blank" rel="noopener noreferrer">Live Demo</a>
+        </footer>
+      </article>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         CONTACT — CTA akhir untuk recruiter menghubungi Adam
+    ============================================================ -->
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Get In Touch</h2>
+      <p>
+        Saya sedang terbuka untuk peluang baru. Apakah Anda punya pertanyaan
+        atau sekadar ingin menyapa — inbox saya selalu terbuka!
+      </p>
+      <address>
+        <a href="mailto:adam@email.com" class="btn-primary">Kirim Email</a>
+        <a href="https://wa.me/6281234567890" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+        <a href="https://linkedin.com/in/adamyaksya" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="assets/resume-adam.pdf" target="_blank" rel="noopener noreferrer">Download Resume</a>
+      </address>
+    </section>
+
+  </main>
+
+  <!-- ============================================================
+       FOOTER — Kredit singkat dan link sosial
+  ============================================================ -->
+  <footer>
+    <p>Designed & Built by <strong>Adam Yaksyaputra</strong></p>
+    <nav aria-label="Sosial media">
+      <a href="https://github.com/adamyaksya" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="https://linkedin.com/in/adamyaksya" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+    </nav>
+    <small>&copy; 2026 Adam Yaksyaputra Hadian</small>
+  </footer>
+
+  <!-- main.js — burger menu, typing, scroll reveal, active nav -->
+  <script src="main.js" defer></script>
+
+</body>
+</html>
